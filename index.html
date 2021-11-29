@@ -6,43 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha primeira pagina em git</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand text-white">Brand</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top position-absolute">
+        <a class="navbar-brand text-white">Desenvolvimento de sistemas</a>
+
+
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contato <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <div class="jumbotron jumbotron-fluid">
-        <h1 class="display-4">Jumbotron</h1>
-        <p>Content</p>
+    <div class="jumbotron bg-danger text-white">
+        <h1 class="display-4">Ensino Medio com hablitação DS</h1>
+        <h2>Etec de Lins</h2>
     </div>
 
     <div class="container">
         <div class="row">
-            <h1>Noticias</h1>
-        </div>
-        <div class="row">
             <div class="col-12 col-sm-6 col-md-6">
-                <img class="img-fluid" src="" alt="">
+                <div class="ml-4">
+                    <h1><i class="fas fa-info-circle"></i> Descrição</h1>
+                    <p>É o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de
+                        dados.
+                    </p>
+                </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6">
+                <img src="img/computador.png" alt="" class="img-fluid">
+            </div>
 
+
+
+            <div class="row mt-5">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <img src="img/trabalho.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class=" ml-4 mt-4">
+                        <h1><i class="fas fa-toolbox"></i>Onde trabalhar</h1>
+                        <p>Empresas e departamentos de desenvolvimento de sistemas em organizações governamentais e não governamentais, podendo também atuar como profissional autônomo.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-danger mt-3">
+        <div class="row text-white">
+            <div class="container">
+                <div class="col-12">
+                    <p>Siga a Etec</p>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="col-12">
+
+                    <p class="text-white">Etec de lins</p>
+                    <p class="text-white">Endereço: R. São Pedro, 300 - Vila Perin, Lins - SP, 16400-537</p>
+                    <p class="text-white">Telefone: (14) 3523-1217</p>
+                    <p class="text-center text-white">
+
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -50,5 +96,6 @@
 
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="fontawesome/js/all.js"></script>
 
 </html>
