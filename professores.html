@@ -12,10 +12,12 @@
 </head>
 
 <body>
-    <div class="jumbotron bg-danger text-white text-center gradient">
+    <div class="jumbotron text-white text-right gradient-sol">
+        <button class="btn bg-transparent botao-lua"><i class="fas fa-moon"></i></button>
+        <button class="btn bg-transparent botao-sol"><i class="fas fa-sun"></i></button>
         <div class="col-12 col-sm-6 col-md-12">
-            <h1>Etec de lins</h1>
-            <h2>Ensino Medio com hablitação DS</h2>
+            <h1 class="text-center hover">Etec de lins</h1>
+            <h2 class="text-center">Ensino Medio com hablitação DS</h2>
         </div>
         <div class="row text-center mt-4" style="font-size: 1.2rem;">
             <div class="col-12 col-sm-6 col-md-12">
@@ -29,7 +31,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-2">
-                <img src="img/adriano.jpg" alt="" class="imagem">
+                <a href="adriano">
+                    <img src="img/adriano.jpg" alt="" class="imagem" href="adriano">
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
                 <h2>Adriano Castro - Programação Web II</h2>
@@ -40,7 +44,9 @@
 
         <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-2">
-                <img src="img/diego.jpg" alt="" class="imagem">
+                <a href="diego">
+                    <img src="img/diego.jpg" alt="" class="imagem" href="diego">
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
                 <h2>Diego emygdio- Banco de dados II</h2>
@@ -50,7 +56,9 @@
 
         <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-2">
-                <img src="img/adriano.jpg" alt="" class="imagem">
+                <a href="everaldo">
+                    <img src="img/adriano.jpg" alt="" class="imagem" href="everaldo">
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
                 <h2>Everaldo Silva - desenvolvimento de Sistemas</h2>
@@ -60,7 +68,9 @@
 
         <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-2">
-                <img src="img/diego.jpg" alt="" class="imagem">
+                <a href="edson">
+                    <img src="img/diego.jpg" alt="" class="imagem" href="edson">
+                </a>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
                 <h2>Edson Carlos- Progamação de aplicações mobile</h2>
@@ -86,8 +96,30 @@
     </div>
 </body>
 
+
+<div class="modal fade" id="modal-info" role="dialog" aria-labelledby="information" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Título da nossa Modal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quidem asperiores ipsa neque tenetur libero facere, corporis et magni pariatur dignissimos obcaecati voluptate consequuntur ipsam provident dolor odio doloribus quaerat.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="fontawesome/js/all.js"></script>
+<script src="js/tema.js"></script>
+<script src="js/modal.js"></script>
 
 </html>

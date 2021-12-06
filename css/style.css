@@ -12,10 +12,20 @@
         transition: 1s;
     }
     
-    .gradient {
+    .gradient-lua {
+        background: linear-gradient(45deg, #2d3436, #192a56, #273c75, #7f8fa6);
+        background-size: 300% 300%;
+        animation: colors 10s ease infinite;
+    }
+    
+    .gradient-sol {
         background: linear-gradient(45deg, #c0392b, #e74c3c, #cd8d7b, #d67316);
         background-size: 300% 300%;
         animation: colors 10s ease infinite;
+    }
+    
+    .bg-footer-lua {
+        background: #192a56;
     }
     
     @keyframes colors {
@@ -59,4 +69,22 @@
         color: #fff;
         transition: 0.4s;
         border-radius: 50px;
+    }
+    
+    .shadow {
+        box-shadow: 3px 3px rgb(0, 0, 0), -1em 0 0.4em rgb(20, 20, 19);
+        padding: 2rem;
+    }
+    
+    .botao {
+        background: transparent;
+    }
+    
+    .hover:hover {
+        font-size: 2.7rem;
+        transition: 1s;
+    }
+    
+    .hover {
+        transition: 1s;
     }
